@@ -65,8 +65,9 @@ console.log("Number of vowel in the String(", string, ")is", countVowel(vowels,s
 
 function doLargeString(sampleInput){
     let sampleInputArray = sampleInput.split(" ");
-    console.log(sampleInputArray)
-    let LongestWord = "";
+    console.log(sampleInputArray);
+    let LongestWord = sampleInputArray[0];
+    console.log(sampleInputArray[0]);
     for(let sampleInput of sampleInputArray){
         // console.log(sampleInput, sampleInput.length)
         if(sampleInput.length > LongestWord.length){
